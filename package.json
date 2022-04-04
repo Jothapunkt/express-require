@@ -1,6 +1,6 @@
 {
   "name": "express-require",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Require parameters to be present or of a fixed type on your express routes",
   "main": "src/middleware.js",
   "scripts": {
