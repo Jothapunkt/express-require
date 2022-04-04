@@ -1,10 +1,8 @@
-import {RequestRequirements} from "./RequirementTypes";
 import {IntegerRequirement} from "./defaultRequirements/IntegerRequirement";
 import {StringRequirement} from "./defaultRequirements/StringRequirement";
 import {Requirement} from "./defaultRequirements/Requirement";
 import {NumberRequirement} from "./defaultRequirements/NumberRequirement";
 
-export function requirements(requestRequirements: RequestRequirements);
 export const R: {
     integer: (key: string, fallback?: number) => IntegerRequirement,
     string: (key: string, fallback?: string) => StringRequirement,
